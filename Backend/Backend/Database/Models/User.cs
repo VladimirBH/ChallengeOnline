@@ -20,6 +20,9 @@ public class User
     [Column("email")]
     public string Email { get; set; }
     
+    [Column("refresh_token")]
+    public string? RefreshToken { get; set; }
+    
     [Column("created_at")]
     public DateTime CreatedAt { get; set; }
     
